@@ -1,0 +1,27 @@
+{
+  "name": "subscriberapi",
+  "version": "1.0.0",
+  "description": "REST API with NODE JS,EXPRESS and MONGODB",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadhanaBalasubramanian/SubscriberAPI.git"
+  },
+  "author": "Sadhana Balasubramaian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SadhanaBalasubramanian/SubscriberAPI/issues"
+  },
+  "homepage": "https://github.com/SadhanaBalasubramanian/SubscriberAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
